@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .standard{
+background-color: darkgrey;
+color: darkred;
+font-style: italic;
+        }
+        .normal{
+            background-color: darkturquoise;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="standard">Magnum Opus</h1>
+    <!-- <h1 style="background-color: brown;color: cornsilk;">Babtra</h1> -->
+    <img src="{% static 'images/123.jpg'%}" alt="">
+    <h1 class="normal">Kerala</h1>
+</center>
+<h1 class="standard">My Work</h1>
+</body>
+</html>
